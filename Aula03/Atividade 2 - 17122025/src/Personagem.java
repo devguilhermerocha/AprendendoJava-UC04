@@ -74,7 +74,7 @@ public class Personagem {
         this.exp += exp;
         while (this.exp > expmax) {
             lvl += 1;
-            expmax = (lvl * 2.5) * expmax;
+            expmax = (lvl * 1.5) * expmax;
             memory = exp - this.exp;
             this.exp += memory;
             IO.println("Você subiu para level "+lvl);
